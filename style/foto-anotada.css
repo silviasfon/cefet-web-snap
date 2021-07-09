@@ -8,7 +8,7 @@
 }
 
 .foto-anotada img {
-  box-shadow: 0px 4px 4px rgba(0,0,0,.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
   border: 1px solid #666;
   max-width: 100%;
 }
@@ -37,10 +37,12 @@
 
 .marcacoes-ocultas .marcacao {
   /* --- Exercício 0 --- */
+  display: none;
 }
 
 
 #balaozinho {
+  position: absolute;
   border: 1px solid silver;
   background-color: rgba(255, 255, 255, .9);
   font-size: 10px;
@@ -51,6 +53,6 @@
 }
 
 #balaozinho:empty {
+  /* ² */
   display: none;
 }
-
